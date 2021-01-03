@@ -52,7 +52,7 @@ $f_name = $result['name'];
     <?php
     }elseif($amount > $net_amount) { ?>
         <script type="text/javascript">
-            alert("The Amount is totally greater then your amount. please check your amount");
+            alert("Insufficient Funds");
         </script>
     <?php
     }elseif($amount <= 0) { ?>
